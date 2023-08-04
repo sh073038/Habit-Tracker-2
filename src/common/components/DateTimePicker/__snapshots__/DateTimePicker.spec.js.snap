@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimePicker renders component 1`] = `
+<div
+  className=""
+>
+  <TextField
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    disabled={false}
+    id="date-test-picker"
+    label="Date Time"
+    onChange={[Function]}
+    required={false}
+    select={false}
+    type="date"
+    value="2018-02-03"
+  />
+  <TextField
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    disabled={false}
+    id="time-test-picker"
+    inputProps={
+      Object {
+        "step": 600,
+      }
+    }
+    onChange={[Function]}
+    required={false}
+    select={false}
+    type="time"
+    value="18:21"
+  />
+</div>
+`;
+
+exports[`DateTimePicker renders component 2`] = `
+Object {
+  "children": Array [
+    <TextField
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      disabled={false}
+      id="date-test-picker"
+      label="Date Time"
+      onChange={[Function]}
+      required={false}
+      select={false}
+      type="date"
+      value="2018-02-03"
+    />,
+    <TextField
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      disabled={false}
+      id="time-test-picker"
+      inputProps={
+        Object {
+          "step": 600,
+        }
+      }
+      onChange={[Function]}
+      required={false}
+      select={false}
+      type="time"
+      value="18:21"
+    />,
+  ],
+  "className": "",
+}
+`;
